@@ -1,0 +1,27 @@
+.pointer {
+    cursor: pointer;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.custom-form:focus {
+    outline:none !important;
+    box-shadow: none !important;
+    border: 1px solid #ced4da !important;
+}
+
+.hide-glow:focus {
+    outline:none;
+    box-shadow: none;
+    border: 1px solid #ced4da;
+}
+
+.fs-7 { font-size: 0.9em; }
+.fs-8 { font-size: 0.8em; }
